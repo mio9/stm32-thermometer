@@ -11,7 +11,7 @@
 #define D5_PIN PA4
 #define D6_PIN PA5
 #define D7_PIN PA6
-#define ONEWIRE_BUS PB5
+#define ONEWIRE_BUS PB3
 
 #define DHTPIN PB4
 #define DHTTYPE DHT11
@@ -67,7 +67,7 @@ void loop()
   lcd.print("HI:");
   lcd.print(hic);
   lcd.print(" ");
-  lcd.print("D:");
+  lcd.print("d:");
   lcd.print(t-t2);
 
   delay(1500);
